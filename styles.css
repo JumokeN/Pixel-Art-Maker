@@ -1,0 +1,124 @@
+
+  * {
+    font-family: 'Radio Canada', sans-serif;
+    color: #8d0a84;
+  }
+  
+  .color_choice::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border: none;
+    border-radius: 7px;
+  }
+  
+
+  
+  em {
+    font-size: 16px;
+    color: #3a2e64;
+  }
+  
+ 
+  body {
+    text-align: center;
+    background-color: #3c7836;
+    font-family: 'Radio Canada', sans-serif;
+  }
+  
+  tr {
+    height: 15px;
+  }
+
+  td {
+    box-sizing: border-box;
+    min-width: 25px;
+  }
+   
+  .row_part:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  h4 {
+    margin: 3em 0 0.5em;
+    text-align: rightt;
+    text-transform: uppercase;
+  }
+  .submit_btn, .fillbtn
+  , .eraser, .draw_canvas {
+    box-shadow: inset 0px 2px 0 0 #73b7f6;
+      background: linear-gradient(#c5c6c4 8%, #71310b 90%);
+      border-radius: 10px;    
+      display: block;
+      border: 2px solid #412fd7;
+      font-weight: bold;
+      padding: 8px 18px;
+      text-decoration: none;
+    cursor: pointer;
+    margin-top: 2em;
+  }
+  
+  .color_choice {
+    border-radius: 8px;
+    height: 15px;
+    border: 2px solid #412fd7;
+    -webkit-appearance: none;
+    padding: 0;
+    border: none;
+    width: 15px;
+    cursor: pointer;
+  }
+  
+  .color_choice::-webkit-color-swatch {
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+  }
+
+  input[type=number] {
+    border: 3px solid #59b463;
+    width: 4em;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  
+  .response {
+    width: 220px;
+    background-color : #ecc0e2;
+    text-align: left;
+    margin-left: 10em;
+    margin-top: 5em;
+    border-radius: 6px;
+    border: 2px solid #78fe54;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+  }
+  
+  table,
+  tr,
+  td {
+    border: #1e312e 3px solid;
+  }
+  
+  .table_canvas {
+    background-color : #d0f2af;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  .column_part {
+    float: left;
+    width: 40%;
+  }
+  
+  .column_part:last-of-type {
+    width: auto;
+  }
+ 

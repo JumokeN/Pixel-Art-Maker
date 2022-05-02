@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pixel Art Maker Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="row_part">
+        <div class="column_part">
+            <div class="response">
+                <h4>What size would you like your grid to be?</h4>
+                <form class="size_choosen">
+                    height:
+                    <input type="number" class="height_choosen" name="height" min="1" max="90" value="5">
+                    <br><br>
+                    width:
+                    <input type="number" class="width_choosen" name="width" min="1" max="90" value="5">
+                    <input type="submit" class="submit_btn" value="submit">
+                </form>
+                <h4>Choose a color you like?</h4>
+                <input type="color" class="color_choice" value="#6558ed">
+                <input type="button" class="fillbtn" value="fill">
+                <input type="button" class="eraser" value="erase">
+                <input type="button" class="draw_canvas" value="draw">
+            </div>
+        </div>
+        <div class="column_part">
+            <h1>Here's Your Canvas</h1>
+            <h2>Go ahead and make beautiful art!</h2>
+            <table class="table_canvas"></table>
+            <br>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
